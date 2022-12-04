@@ -19,5 +19,6 @@
 |        14| draadjes           | verbindingen     | recup     | 0            | /    | 0       |
 |        15| soldeertin         | solderen         | recup     | 0            | /    | 0       |
 |        16| hout plankje       | constuctie op te bouwen | recup| 0          | /    | 0       |
+|        17|                                                            TOTAAL       | 117,81  |
 
 Prijzen zijn exclusief verzendkosten
