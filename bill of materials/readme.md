@@ -1,8 +1,8 @@
 ## bill of materials
 <br />
 
-|volgnummer|naam                |omschrijving      |nieuw/recup|kostprijs/stuk|aantal|subtotaal|
-|----------|--------------------|------------------|-----------|--------------|------|---------|
+|volgnummer|naam                |omschrijving      |nieuw/recup|kostprijs/stuk (€)|aantal|subtotaal(€)|
+|----------|--------------------|------------------|-----------|------------------|------|------------|
 |         1| esp32              |microconroller    | nieuw     | 10           | 1    | 10      |
 |         2| Wielen 40x7        |wielen set(2)     | nieuw     | 3,95         | 1    | 3,95    |
 |         3| Motors 6VDC        |polulu set (2)    | nieuw     | 27,08        | 1    | 27,08   |
