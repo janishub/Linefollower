@@ -4,3 +4,14 @@ Een instructable is een stappenplan - zonder verdere uitleg - hoe je vertrekkend
 
 ### stap 1
 bestel alle componenten uit de bill of materials  
+
+### stap 2
+Wanneer alle componenten zijn toegekomen. Kan je deze 1 voor 1 testen. Dit door eenvoudige schakelingen en programma's te schrijven.
+Je hebt een proof of concept nodig voor:
+- Werking microcontroller;
+- H-brug en motoren aansturen;
+- interrupt via een drukknop;
+- Uitlezen sensor waarde;
+- draadloze communicatie.
+
+### Stap 3
