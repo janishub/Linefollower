@@ -1,11 +1,20 @@
 # Gebruiksaanwijzing
 
 ### opladen / vervangen batterijen
-uitleg over het opladen of vervangen van de batterijen
+Er wordt gewerkt met Li-ion oplaadbare batterijen. 
+Voor het opladen is er een speciale oplader voorzien. 
+De batterijen worden in seie geschakeld om zo een spanning van 7,4VDC te bekomen (elk 3,7VDC). 
 
 ### draadloze communicatie
+Als draadloze communicatie is er zowel wifi als bleuthooth mogelijk. 
+Voor de communicatie tussen gsm en robot is er voor bleuthooth gekozen. 
+
 #### verbinding maken
-uitleg over het verbinden van de robot met laptop / smartphone
+Verbinding tussen robot en computer kan via een usb kabel of bleuthooth. 
+
+Verbinding maken tussen gsm en robot is mogelijk via bleuthooth. 
+Op u smartphone kan u een app downloaden, serial bleuthooth terminal. 
+De app kan u in de app store downloaden. 
 
 #### commando's
 debug [on/off]  
