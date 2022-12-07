@@ -9,17 +9,17 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 <br />
-microcontroller:
+microcontroller: esp32
 <br />
-motors: 
+motors: polulu 6v 300rpm 50:1
 <br />
-h-bridge:
+h-bridge: adafruit drv 8833
 <br />
-sensors:
+sensors: qt8a
 <br />
-batteries:
+batteries: li-ion 3,7VDC (2x)
 <br />
-wireless communication:
+wireless communication: bleuthooth
 <br />
 distance sensor - motors:
 <br />
