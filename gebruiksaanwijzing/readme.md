@@ -22,19 +22,26 @@ kunnen we kijken welke de ingestelde parameters zijn van de robot.
 
 start  
 met het start commando kunnen we robot simpelweg starten.
+
 stop  
 stop stoppen we de robot met rijden.
+
 set cycle [µs]  
 Is de cyclus tijd die de robot doet.
+
 set power [0..255]  
 Hiermee kunnen we de snelheid van de robot instellen.
+
 set diff [0..1]  
 Is de waarde die er voor zorgt dat de robot de bochten goed kan nemen. En geen vermogen zal verliezen. 
+
 set kp [0..]  
 set ki [0..]  
 set kd [0..]  
+
 calibrate black  
 Hierbij gaan we de sensor de zwarte waardes kaliberen.
+
 calibrate white  
 De sensor wit waarden laten kaliberen. 
 
