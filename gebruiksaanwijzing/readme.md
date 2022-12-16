@@ -27,7 +27,7 @@ stop
 stop stoppen we de robot met rijden.
 
 set cycle [µs]  
-Is de cyclus tijd die de robot doet.
+Is de cyclus tijd die de robot doet. Hoelang de robot er over moet doen om zijn proces te doorlopen.
 
 set power [0..255]  
 Hiermee kunnen we de snelheid van de robot instellen.
@@ -35,9 +35,14 @@ Hiermee kunnen we de snelheid van de robot instellen.
 set diff [0..1]  
 Is de waarde die er voor zorgt dat de robot de bochten goed kan nemen. En geen vermogen zal verliezen. 
 
-set kp [0..]  
+set kp [0..] 
+hiermee kunnen we het verschil in wenswaarde en gemeten waarde wordt versterkt.
+
 set ki [0..]  
+zorgt voor een constante sommatie van de fout en blijft meer signaal uitsturen afhankelijk van hoe lang er een fout bestaat tussen gemeten en gewenste waarde.
+
 set kd [0..]  
+reageert op de snelheid van de verandering van de fout.
 
 calibrate black  
 Hierbij gaan we de sensor de zwarte waardes kaliberen.
@@ -49,7 +54,7 @@ De sensor wit waarden laten kaliberen.
 Om deze meetfouten ietwat uit te middelen kunnen we onze individuele sensoren kalibreren. Dit is eigenlijk niet meer dan de sensoren uitlezen onder gekende omstandigheden (de sensoren uitlezen wanneer we weten dat deze "wit" en "zwart" moeten meten). Op die manier hebben we voor iedere sensor referentiewaardes waarmee we kunnen vergelijken.
 
 ### settings
-De robot rijdt stabiel met volgende parameters: power 120; diff 0,05, KP = 10; ki: 0,20 kp: 0,20.
+De robot rijdt stabiel met volgende parameters: power 120; diff 0,05, KP = 10; ki: 0,20 kd: 0,20.
 
 ### start/stop button
 Er is een monostabiele start/stop knop voorzien. Deze wordt gebruikt om de robot te starten en stoppen. 
