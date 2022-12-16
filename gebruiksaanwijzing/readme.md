@@ -19,6 +19,7 @@ De app kan u in de app store downloaden.
 #### commando's
 debug [on/off]  
 kunnen we kijken welke de ingestelde parameters zijn van de robot. 
+
 start  
 met het start commando kunnen we robot simpelweg starten.
 stop  
